@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap");
+body {
+  font-family: "Nunito", cursive;
+  margin: 0;
+}
+
+.position {
+  height: 100vh;
+  width: 100wh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.position .logo {
+  padding: 10px;
+  height: 5cm;
+  border-radius: 25%;
+}
+.position .images img {
+  width: 15mm;
+  margin: 2mm;
+}
