@@ -1,24 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap");
 body {
+  background-attachment: fixed;
   font-family: "Nunito", cursive;
   margin: 0;
 }
 
 .position {
+  background-image: url("assets/images/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   width: 100wh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  align-items: flex-start;
+}
+.position .card {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 2em;
+  border-radius: 3em;
 }
 .position .logo {
-  padding: 10px;
   height: 5cm;
-  border-radius: 25%;
+  border-radius: 3em;
 }
 .position .images img {
-  width: 15mm;
-  margin: 2mm;
+  border-radius: 0;
+  width: 3em;
+  margin: 0.2em;
+}
+.position .team img {
+  border-radius: 25%;
 }
