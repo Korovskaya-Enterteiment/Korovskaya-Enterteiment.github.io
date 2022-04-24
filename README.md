@@ -2,4 +2,4 @@
 
 Web page for Korovskaya-Enterteiment
 
-link - <Korovskaya-Enterteiment.github.io>
+link - <https://Korovskaya-Enterteiment.github.io/>
